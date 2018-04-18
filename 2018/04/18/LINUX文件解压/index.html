@@ -6,14 +6,16 @@
 </li>
 <li><p>.tar.bz2包<br>压缩为bz2文件：tar -cjvf file.tar.bz2<br>将bz2文件解压：tar -xjvf file.tar.bz2</p>
 </li>
+<li><p>其他命令：<br>解压rar: unrar e file.rar<br>解压zip: unzip file.zip</p>
+</li>
+<li><p>gzip/gunzip命令<br>用gzip压缩时不保留源文件：gzip filename<br>用gzip压缩时保留源文件(-c)：gzip –c filename &gt; filename.gz<br>用gunzip解压时不保留源文件：gunzip filename.gz<br>用gunzip解压时保留源文件(-c)：gunzip –c filename.gz &gt; filename </p>
+</li>
 </ul>
-<p>*其他命令：<br>解压rar: unrar e file.rar<br>解压zip: unzip file.zip</p>
-<p>*gzip/gunzip命令<br>用gzip压缩时不保留源文件：gzip filename<br>用gzip压缩时保留源文件(-c)：gzip –c filename &gt; filename.gz<br>用gunzip解压时不保留源文件：gunzip filename.gz<br>用gunzip解压时保留源文件(-c)：gunzip –c filename.gz &gt; filename </p>
 <p>总结：</p>
 <ol>
 <li>*.tar 用 tar –xvf 解压</li>
 <li>*.gz 用 gzip -d或者gunzip 解压</li>
-<li><em>.tar.gz和 </em>.tgz 用 tar –xzf 解压</li>
+<li><em>.tar.gz 和 </em>.tgz 用 tar –xzf 解压</li>
 <li>*.bz2 用 bzip2 -d或者用bunzip2 解压</li>
 <li>*.tar.bz2用tar –xjf 解压</li>
 <li>*.Z 用 uncompress 解压</li>
